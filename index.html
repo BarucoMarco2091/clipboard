@@ -26,7 +26,7 @@
             <h2 class="text-[var(--darkGrayishBlue)] text-4xl font-semibold mb-5">Keep track of your snippets</h2>
             <p class="text-[var(--grayishBlue)]"> Clipboard instantly stores any item you copy in the cloud, meaning you can access<br>your snippets immediately on all your devices. Our Mac and iOS apps will help you<br>organize everything.</p>
         </section>
-        <section id="container" class="flex relative mt-9">
+        <section id="container" class="md:flex relative mt-9">
             <section id="container-img" class="relative right-15 flex-1">
                 <img src="assets/image-computer.png" alt="">
             </section>
@@ -58,7 +58,7 @@
             <h3 class="text-[var(--darkGrayishBlue)] font-semibold text-3xl mb-4">Supercharge your workflow</h3>
             <p class="text-[var(--grayishBlue)]">We’ve got the tools to boost your productivity.</p>
         </section>
-        <section id="grid" class="max-w-6xl m-auto grid grid-cols-3 mt-7 gap-4">
+        <section id="grid" class="max-w-6xl m-auto grid grid-cols-1 md:grid md:grid-cols-3 mt-7 gap-4">
             <section id="card" class="text-center items-center justify-center">
                 <img src="assets/icon-blacklist.svg" alt="" class="m-auto mb-3">
                 <h4 class="text-[var(--darkGrayishBlue)] font-semibold text-2xl">Create blacklists</h4>
@@ -75,21 +75,21 @@
                 <p class="text-[var(--grayishBlue)] mb-3">Quick preview of all snippets on your Clipboard<br>for easy access.</p>
             </section>
         </section>
-        <section id="grid-container" class="max-w-6xl m-auto grid grid-cols-5 mt-5 gap-4">
+        <section id="grid-container" class="max-w-6xl m-auto grid grid-cols-1 md:grid md:grid-cols-5 mt-5 gap-4">
             <section id="card-body">
-                <img src="assets/logo-google.png" alt="">
+                <img class="!m-auto" src="assets/logo-google.png" alt="">
             </section>
             <section id="card-body">
-                <img src="assets/logo-ibm.png" alt="">
+                <img class="!m-auto" src="assets/logo-ibm.png" alt="">
             </section>
             <section id="card-body">
-                <img src="assets/logo-microsoft.png" alt="">
+                <img class="!m-auto" src="assets/logo-microsoft.png" alt="">
             </section>
             <section id="card-body">
-                <img src="assets/logo-hp.png" alt="">
+                <img class="!m-auto" src="assets/logo-hp.png" alt="">
             </section>
             <section id="card-body">
-                <img src="assets/logo-vector-graphics.png" alt="">
+                <img class="!m-auto" src="assets/logo-vector-graphics.png" alt="">
             </section>
         </section>
         <section id="clipboard" class="flex flex-col justify-center items-center mt-5">
@@ -102,24 +102,24 @@
         </section>
     </main>
     <footer class="bg-[var(--grayishBlue)]">
-        <div id="footer-container" class="flex flex-row justify-between max-w-6xl m-auto">
+        <div id="footer-container" class="md:flex justify-between max-w-6xl m-auto">
             <div id="footer-logo"  class="mt-2">
-                <img class="w-10 h-10" src="assets/logo.svg" alt="">
+                <img class="w-10 h-10 m-auto" src="assets/logo.svg" alt="">
             </div>
-            <div id="footer-menu" class="flex mt-2">
-                <div id="first-col" class="flex flex-col gap-4 mr-3">
+            <div id="footer-menu" class="flex flex-col mt-2 items-center justify-center">
+                <div id="first-col" class="md:flex md:flex-row gap-4 mr-3">
                     <a href="#" class="hover:text-[var(--strongCyan)]">FAQs</a>
                     <a href="#" class="hover:text-[var(--strongCyan)]">Contact Us</a>
                 </div>
-                <div id="second-col" class="flex flex-col gap-4 mr-3">
+                <div id="second-col" class="md:flex md:flex-row gap-4 mr-3">
                     <a href="#" class="hover:text-[var(--strongCyan)]">Privacy Policy</a>
                     <a href="" class="hover:text-[var(--strongCyan)]">Press Kit</a>
                 </div>
-                <div id="third-col"  class="flex flex-col gap-4 mr-3 ">
+                <div id="third-col"  class="md:flex md:flex-row gap-4 mr-3 ">
                     <a href="#" class="hover:text-[var(--strongCyan)]">Install Guide</a>
                 </div>
             </div>
-            <div id="footer-icons" class="mt-2 flex flex-row gap-3">
+            <div id="footer-icons" class="mt-2 flex flex-row gap-3 justify-center items-center">
                 <img id="icon-facebook" class="w-5 h-5 hover:bg-[var(--strongCyan)] cursor-pointer" src="assets/icon-facebook.svg" alt="">
                 <img id="icon-twitter" class="w-5 h-5 hover:bg-[var(--strongCyan)] cursor-pointer" src="assets/icon-twitter.svg" alt="">
                 <img id="icon-instagram" class="w-5 h-5 hover:bg-[var(--strongCyan)] cursor-pointer" src="assets/icon-instagram.svg" alt="">
